@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { ContadorModule } from './contador/contador/contador.module';
 import { HeroesModule } from './heroes/heroe/heroes.module';
 
 //Tarea: 
@@ -15,7 +16,8 @@ import { HeroesModule } from './heroes/heroe/heroes.module';
   ],
   imports: [
     BrowserModule,
-    HeroesModule
+    HeroesModule,
+    ContadorModule
   ],
   providers: [],
   bootstrap: [AppComponent]
